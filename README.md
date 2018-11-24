@@ -1,3 +1,3 @@
 
-# hex-poke-xp-edit
-Created with CodeSandbox
+# Pokemon let's go xp mod percentage changer
+Coded in CodeSandbox
