@@ -1,5 +1,5 @@
 document.getElementById("app").innerHTML = `
-<h1>Hello Parcel!</h1>
+<h1>Pokemon let's go xp mod percentage changer</h1>
 <div>
    <form id="frm1" action="/action_page.php">
         File 1 Percentage: <select name="perc1">
@@ -557,22 +557,18 @@ var readFileAsArrayMode;
 var changePercentage = function(perc1, perc2, a, b) {
   var hex1 = file1hex != null ? file1hex : a.split(" ");
   var hex2 = file2hex != null ? file2hex : b.split(" ");
-  var hexTemp;
+  var decTemp;
   var hexResult = [];
-  console.log(hex1.length);
-  //editHex(0, perc1, perc2, hex1, hex2);
-  for (i = 0; i != hex1.length; i++) {
-    if (hex1[i] != hex2[i]) {
-      hexTemp = parseInt(hex1[i], 16);
-      hexTemp = Math.floor((hexTemp / perc1) * perc2);
-      hexResult[i] = decimalToHexDouble(hexTemp);
+  var dec1 = reConvert(hex1);
+  var dec2 = reConvert(hex2);
+  for (i = 0; i != dec1.length; i++) {
+    if (dec1[i] != dec2[i]) {
+      decTemp = Math.floor((dec1[i] / perc1) * perc2);
+      decTemp = decTemp > 255 ? 255 : decTemp;
+      decTemp = decTemp < 0 ? 0 : decTemp;
+      hexResult[i] = decimalToHexDouble(decTemp);
     } else {
       hexResult[i] = hex1[i];
-    }
-    if (i % 100 === 0) {
-      var completition = (i * 100) / hex1.length;
-      document.getElementById("demo").innerHTML =
-        Math.floor(completition) + "%";
     }
   }
   fileOutputHex = hexResult;
