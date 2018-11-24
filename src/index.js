@@ -570,11 +570,6 @@ var changePercentage = function(perc1, perc2, a, b) {
     } else {
       hexResult[i] = hex1[i];
     }
-    if (i % 100 === 0) {
-      var completition = (i * 100) / dec1.length;
-      document.getElementById("demo").innerHTML =
-        Math.floor(completition) + "%";
-    }
   }
   fileOutputHex = hexResult;
   document.getElementById("demo").innerHTML = writeHex(hexResult, true);
