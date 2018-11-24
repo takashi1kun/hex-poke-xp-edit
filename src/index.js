@@ -1,5 +1,5 @@
 document.getElementById("app").innerHTML = `
-<h1>Hello Parcel!</h1>
+<h1>Pokemon let's go xp mod percentage changer</h1>
 <div>
    <form id="frm1" action="/action_page.php">
         File 1 Percentage: <select name="perc1">
