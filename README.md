@@ -10,4 +10,6 @@ selector you select the new percentage you want, then you click to "generate" an
 whit that percentage you inputed will be generated, if you click download after that, it will be automatically compiled in to
 a file named "personal_total.bin" and be downloaded.
 
+You can use it at: https://www.aitor-sama.es
+
 Coded in CodeSandbox
