@@ -1,8 +1,13 @@
 document.getElementById("app").innerHTML = `
-<h1>Pokemon let's go xp mod percentage changer</h1>
-<div>
-   <form id="frm1" action="/action_page.php">
-        File 1 Percentage: <select name="perc1">
+ <div
+          style=" background-color: #4daf7c; border-radius: 25px 25px 0px 0px; margin: -26px 0px 0px -25px; display: inline-block; position:
+		absolute; width: 33.3333333333333%; text-align: center; min-width: 488.18;"
+        >
+          <h1>Pokemon let's go xp mod percentage changer</h1>
+        </div>
+<div >
+   <form style="margin: 135px 0px 0px 0px;" class="pure-form pure-form-stacked" id="frm1" >
+     <div class="text-input">   <div style="color: #999;"><select id="percfile1" name="perc1">
     <option value="0">Select Percentage:</option>
 <option value="1">0%</option>
 <option value="2">1%</option>
@@ -260,8 +265,8 @@ document.getElementById("app").innerHTML = `
 <option value="254">253%</option>
 <option value="255">254%</option>
 <option value="256">255%</option>
-  </select><br />
-        New Percentage: <select name="perc2">
+  </select><label for="percfile1">File 1 Percentage:</label></div></div>
+         <div class="text-input" style="margin-top: 30px;"><div style="color: #999;"><select id="percfile2" name="perc2">
     <option value="0">Select Percentage:</option>
 <option value="1">0%</option>
 <option value="2">1%</option>
@@ -519,25 +524,28 @@ document.getElementById("app").innerHTML = `
 <option value="254">253%</option>
 <option value="255">254%</option>
 <option value="256">255%</option>
-  </select><br />
+  </select><label for="percfile2"> New Percentage  : </label></div></div>
 
         <br />
+         <div class="text-input" style="margin-top: 0;"><label style="position:relative; border-radius: 3px; top: 10;">  File 1 :</label></div>
+      <span></span>
+<textarea style="color: black;" class="pure-input-1" rows="8" cols="50" name="file1" id="file1"></textarea><br /> <div class="file-upload-wrapper" data-text="Upload File 1!">
+      <input class="file-upload-field" type="file" name="fileinput" onchange="openFile1(event)" /><span></span></div><br />
+      <div class="text-input" style="margin-top: 0;"><label style="position:relative; border-radius: 3px; top: 10;">  File 2 :</label></div>
+      <textarea style="color: black;" class="pure-input-1" rows="8" cols="50" name="file2" id="file2"></textarea
+      ><br /><div class="file-upload-wrapper" data-text="Upload File 2!"><input class="file-upload-field" type="file" name="fileinput" onchange="openFile2(event)"
+      /><br /></div><div style="margin-top: 30px;">
+  
+      
+       <div class="text-input" style="margin-top: 30;"><label style="position:relative; border-radius: 3px; top: 10;"> Result:</label></div>
+     <textarea style="color: black;" readonly id="demo" rows="8" cols="50" class="pure-input-1"></textarea>
       </form>
       
-      File 1:<br />
-      <textarea rows="8" cols="50" name="file1" id="file1"></textarea><br />
-      <input type="file" name="fileinput" onchange="openFile1(event)" /><br />
-      File 2:<br />
-      <textarea rows="8" cols="50" name="file2" id="file2"></textarea
-      ><br /><input
-        type="file"
-        name="fileinput"
-        onchange="openFile2(event)"
-      /><br />
-      <button onclick="generateFile()">Generate</button><button id="downloadButton" onclick="saveFileToComputer()">Download</button> <br />Result:<br />
-      <textarea readonly id="demo" rows="8" cols="50">
+      <div class="pure-button-group"> <button class="pure-button pure-input-1-2 pure-button-primary" onclick="generateFile()"><i class="fas fa-cogs"></i>  Generate</button><button style="background: rgb(202, 60, 60);" class="pure-button pure-input-1-2 pure-button-primary" id="downloadButton" onclick="saveFileToComputer()"><i class="fas fa-download"></i> Download</button> </div>
+      </div>
+       
 
-</textarea>
+
       <p id="demo2"></p>
 </div>
 `;
