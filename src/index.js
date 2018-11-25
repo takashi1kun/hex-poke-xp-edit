@@ -541,8 +541,7 @@ document.getElementById("app").innerHTML = `
      <textarea style="color: black;" readonly id="demo" rows="8" cols="50" class="pure-input-1"></textarea>
       </form>
       
-      <div class="pure-button-group"> <button class="pure-button pure-input-1-2 pure-button-primary" onclick="generateFile()"><i class="fas fa-cogs"></i>  Generate</button><button style="background: rgb(202, 60, 60);" class="pure-button pure-input-1-2 pure-button-primary" id="downloadButton" onclick="saveFileToComputer()"><i class="fas fa-download"></i> Download</button> </div>
-      </div>
+      <div class="pure-button-group pure-form pure-form-stacked"> <button class="pure-button pure-input-1-2 pure-button-primary" onclick="generateFile()"><i class="fas fa-cogs"></i>  Generate</button><button style="background: rgb(202, 60, 60);" class="pure-button pure-input-1-2 pure-button-primary" id="downloadButton" onclick="saveFileToComputer()" disabled=""><i class="fas fa-download"></i> Download</button> </div>
        
 
 
