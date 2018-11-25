@@ -544,7 +544,7 @@ document.getElementById("app").innerHTML = `
 
       <p id="demo2"></p>
 
-      <div class="pure-button-group pure-form pure-form-stacked"> <button type="button" class="pure-button pure-input-1-2 pure-button-primary" onclick="generateFile()"><i class="fas fa-cogs"></i>  Generate</button><button type="button" style="background: rgb(202, 60, 60);" class="pure-button pure-input-1-2 pure-button-primary" id="downloadButton" onclick="saveFileToComputer()" disabled=""><i class="fas fa-download"></i> Download</button> </div>
+      <div class="pure-button-group pure-form pure-form-stacked"> <button type="button" class="pure-button pure-input-1-2 pure-button-primary" onclick="generateFile(); return false"><i class="fas fa-cogs"></i>  Generate</button><button type="button" style="background: rgb(202, 60, 60);" class="pure-button pure-input-1-2 pure-button-primary" id="downloadButton" onclick="saveFileToComputer(); return false" disabled=""><i class="fas fa-download"></i> Download</button> </div>
        
 
 </div>
