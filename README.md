@@ -34,3 +34,5 @@ FileSaver.min.js
 -https://purecss.io for part of the css 
 
 -https://fontawesome.com for some icons
+
+CodeSandbox because i coded the thing in codesandbox.
