@@ -33,5 +33,7 @@ github_username:  takashi1kun
 theme: minima
 plugins:
   - jekyll-feed
-
+sass:
+  sass_dir: src/
+  style: compressed
 # Exclude from processing.
