@@ -1,6 +1,6 @@
 document.getElementById("app").innerHTML = `
  <div
-          style=" background-color: #4daf7c; border-radius: 25px 25px 0px 0px; margin: -26px 0px 0px -25px; display: inline-block; position:
+          style="background-color: #4daf7c; border-radius: 25px 25px 0px 0px; margin: -26px 0px 0px -25px; display: inline-block; position:
 		absolute; width: 33.3333333333333%; text-align: center; min-width: 488.18;"
         >
           <h1>Pokemon let's go xp mod percentage changer</h1>
