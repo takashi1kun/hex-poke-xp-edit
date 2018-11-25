@@ -16,12 +16,21 @@ Coded in CodeSandbox
 
 
 CREDITS:
+
 -Me for creating the tool
+
 -https://github.com/mgreter/sass.link.js for:
+
 sass.link.src.js	
+
 sass.link.worker.src.js
+
 -https://github.com/eligrey/FileSaver.js/ for:
+
 FileSaver.min.js
+
 -https://www.freefavicon.com/freefavicons/icons/iconinfo/gear-icon-152-213252.html for the favicon
+
 -https://purecss.io for part of the css 
+
 -https://fontawesome.com for some icons
