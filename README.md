@@ -22,7 +22,8 @@ Either way it works, but i suggest to simply using the UPLOAD button science it 
 You can adquire the personal_total.bin file by extracting the files of Pokemon let's go Eevee or let's go Pikachu, its inside "romfs\bin\pokelib\personal\".  
 You can also get one from Dio Vento's Pokemon let's go standalone mods Altered Experience Gain, there are 3 of them, one whit 60%, other for co-op whit 35% and other for endgame whit 200%, apart from those you can also get one in Dio Vento's Pokemon let's go Polished Pikachu and Enhanced Eevee mod, that one being 75%.  
 
-You can upload any personal_total.bin, it does not matter which one, but be sure to remember which one you uploaded because is going to be important on the next step.
+You can upload any personal_total.bin, it does not matter which one, but be sure to remember which one you uploaded because is going to be important on the next step.  
+If you go whit the upload button option, a Hexadecimal string representing the "personal_total.bin" you uploaded would appear on the File 1 Text box
 
   ### 2. Select File 1 Percentage
 Now we are going to go to the "File 1 Fercentage" field.  
@@ -46,15 +47,25 @@ Like you had done in the first step, you can choose betwen just uploading whit t
 
 In this step you have to upload a "personal_total.bin" that has a different percentage than the one you uploaded in step 1, you can read again step 1 to know where to obtain "personal_total.bin" files, but it is very important that the one you upload in this step is a different "personal_total.bin" from the one you uploaded on step 1.  
 For example, if on step 1 you uploaded a "personal_total.bin" extracted from the base game, on this step you should upload a "personal_total.bin" obtained from one of Dio Vento's mods, or another example, if on step 1 you uploaded the "personal_total.bin" from the Dio Vento's Altered Experience Gain 60% mod, on this step you should upload for example Dio Vento's Altered Experience Gain 35% Co-op mod "personal_total.bin".  
-I will assume that I have made it clear enough.
+I will assume that I have made it clear enough.  
+If you go whit the upload button option, a Hexadecimal string representing the "personal_total.bin" you uploaded would appear on the File 2 Text box
 
 summary of this step: upload a "personal_total.bin" other than that you uploaded in step 1.
 
   ### 4. Select a NEW Percentage
-This is the easiest step, like on step 2 you are going to deal whit a dropdown menu when you click "the New Percentage" field, and like the one in step 2 this menu is going to contain different percentages ranging from 0% to 255%.
+This is a easy step, like on step 2 you are going to deal whit a dropdown menu when you click "the New Percentage" field, and like the one in step 2 this menu is going to contain different percentages ranging from 0% to 255%.
 
 You only need to select the percentage that you want, the percentage you select on this menu is going to become the percentage of experience you recive after catching Pokemon compared to the base game values, for example, if on the base game whitout mods you gain 200xp from catching a certain pokemon, and you select in this menu 230% you would then gain 460xp from that same pokemon, or if you select 67% you would gain 134xp.  
 Im going to suppose that everyone understands, is pretty easy, you select the percentage you want.
+
+  ### 5. Generate
+On this step you only need to do one thing, after you filled all 4 fields on the previous step you just click the "Generate" button, and on the third text box a Hexadecimal string would appear, that Hexadecimal string corresponds to the new "personal_total.bin" generated whit the percentage you wanted, now you can jump to the next step, but if you want to go whit hex editor option you can continue reading this step, altrought its not recommended to go whit the hex editor option.  
+Select all inside the third text box, copy it, paste it on a hex editor like HxD and save it as "personal_total.bin", if you done this you can ignore step 6 and go directly to step 7, as the next step just downloads the "personal_total.bin" to the computer if you did not wanted to use a hex editor.
+
+ ### 6. Download
+This is by far the easier step, just click the download button, and the "personal_total.bin" whit the percentage you selected would be downloaded to your computer/device.
+
+ ### 7. Put the file on the correct place
 
 
 ## LINK OF THE TOOL
