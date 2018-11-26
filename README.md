@@ -67,12 +67,11 @@ This is by far the easier step, just click the download button, and the "persona
 
  ### 7. Put the file on the correct place
 Finally you just need to put the file in the right directory, and that one would be:  
+Game | Directory 
+------------ | -------------
+Pokemon Let's Go, Pikachu! | SD:\atmosphere\titles\010003F003A34000\romfs\bin\pokelib\personal
+Pokemon Let's Go, Eevee! | SD:\atmosphere\titles\010003F003A36000\romfs\bin\pokelib\personal 
 
-SD:\atmosphere\titles\010003F003A34000\romfs\bin\pokelib\personal  
-or  
-SD:\atmosphere\titles\010003F003A36000\romfs\bin\pokelib\personal  
-
-Which directory depends of the version of your game 010003F003A34000 is for let's go pikachu, and 010003F003A36000 is for let's go Eevee.
 
 ## LINK OF THE TOOL
 
