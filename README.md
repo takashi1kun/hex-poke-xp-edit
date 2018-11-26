@@ -41,7 +41,7 @@ Extracted from base game | 100%
 Dio Vento's Pokemon lets go Polished Pikachu and Enhanced Eevee mod | 75%
 Dio Vento's standalone Pokemon lets go mods Altered Experience Gain 60% | 60%
 Dio Vento's standalone Pokemon lets go mods Altered Experience Gain 35% Co-op | 35%
-Dio Vento's standalone Pokemon lets go mods Altered Experience Gain 200% Post Game Grinding | 200
+Dio Vento's standalone Pokemon lets go mods Altered Experience Gain 200% Post Game Grinding | 200%
 
   ### 3. Upload File 2  
 This step is going to be relatively easy to explain.  
