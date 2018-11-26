@@ -6,6 +6,10 @@ This is a web aplication that allows to compare 2 "personal_total.bin" whit dife
 provided by wild pokemon in pokemon let's go and allows you to generate a new "personal_total.bin" whit the 
 percentage that you want from 0% to 255%.
 
+## LINK TO THE TOOL
+
+#### You can find it at: https://www.aitor-sama.es
+
 ## INSTRUCTIONS
 
 ### Introduction
@@ -73,11 +77,7 @@ Game | Directory
 Pokemon Let's Go, Pikachu! | SD:\atmosphere\titles\010003F003A34000\romfs\bin\pokelib\personal
 Pokemon Let's Go, Eevee! | SD:\atmosphere\titles\0100187003A36000\romfs\bin\pokelib\personal 
 
-
-## LINK OF THE TOOL
-
-You can use it at: https://www.aitor-sama.es
-
+___
 
 ## CREDITS
 
