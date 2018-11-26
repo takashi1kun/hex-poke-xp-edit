@@ -40,6 +40,7 @@ Dio Vento's standalone Pokemon lets go mods Altered Experience Gain 200% Post Ga
 
   ### 3. Upload File 2  
 This step is going to be relatively easy to explain.  
+
 Now you are supposed to upload another "personal_total.bin", this time on the File 2 field, this field works exactly like the File 1's field, there is a Text Box and bellow it a UPLOAD button that on the left side of it will be written "Upload File 2!".  
 Like you had done in the first step, you can choose betwen just uploading whit the button or going through the troublesome process of copy paste with a hex editor.  
 
@@ -49,16 +50,14 @@ I will assume that I have made it clear enough.
 
 summary of this step: upload a "personal_total.bin" other than that you uploaded in step 1.
 
+  ### 4. Select a NEW Percentage
 
-
-
+## LINK TO USE THE TOOL
 
 You can use it at: https://www.aitor-sama.es
 
-Coded in CodeSandbox
 
-
-CREDITS:
+## CREDITS
 
 -Me for creating the tool
 
