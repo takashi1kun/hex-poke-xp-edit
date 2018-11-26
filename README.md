@@ -71,7 +71,7 @@ Finally you just need to put the file in the right directory, and that one would
 Game | Directory 
 ------------ | -------------
 Pokemon Let's Go, Pikachu! | SD:\atmosphere\titles\010003F003A34000\romfs\bin\pokelib\personal
-Pokemon Let's Go, Eevee! | SD:\atmosphere\titles\010003F003A36000\romfs\bin\pokelib\personal 
+Pokemon Let's Go, Eevee! | SD:\atmosphere\titles\0100187003A36000\romfs\bin\pokelib\personal 
 
 
 ## LINK OF THE TOOL
