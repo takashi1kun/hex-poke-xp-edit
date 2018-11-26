@@ -51,8 +51,13 @@ I will assume that I have made it clear enough.
 summary of this step: upload a "personal_total.bin" other than that you uploaded in step 1.
 
   ### 4. Select a NEW Percentage
+This is the easiest step, like on step 2 you are going to deal whit a dropdown menu when you click "the New Percentage" field, and like the one in step 2 this menu is going to contain different percentages ranging from 0% to 255%.
 
-## LINK TO USE THE TOOL
+You only need to select the percentage that you want, the percentage you select on this menu is going to become the percentage of experience you recive after catching Pokemon compared to the base game values, for example, if on the base game whitout mods you gain 200xp from catching a certain pokemon, and you select in this menu 230% you would then gain 460xp from that same pokemon, or if you select 67% you would gain 134xp.  
+Im going to suppose that everyone understands, is pretty easy, you select the percentage you want.
+
+
+## LINK OF THE TOOL
 
 You can use it at: https://www.aitor-sama.es
 
