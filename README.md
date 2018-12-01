@@ -81,6 +81,8 @@ ___
 
 ## CREDITS
 
+GBAtemp post: https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/
+
 -Me for creating the tool
 
 -https://github.com/mgreter/sass.link.js for:
@@ -100,3 +102,5 @@ FileSaver.min.js
 -https://fontawesome.com for some icons
 
 CodeSandbox because i coded the thing in codesandbox.
+
+Thanks to Dio Vento because this is a modding tool for moding his mod
