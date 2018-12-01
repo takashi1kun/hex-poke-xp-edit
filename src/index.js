@@ -549,7 +549,9 @@ document.getElementById("app").innerHTML = `
 <div>
 <div class="pure-g">
     <div class="pure-u-1-3"><p></p></div>
-    <div class="pure-u-1-3"><p><a href="https://github.com/takashi1kun/hex-poke-xp-edit">Github Page</a><br /><a href="https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/">GBAtemp Post</a></p></div>
+    <div class="pure-u-1-3"><p>
+<a style="color:white;font-weight: 700; text-decoration: none;" href="https://github.com/takashi1kun/hex-poke-xp-edit">Github Page</a><br />
+<a style="color:white;font-weight: 700; text-decoration: none;" href="https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/">GBAtemp Post</a></p></div>
     <div class="pure-u-1-3"><p></p></div>
 </div>
 </div>
