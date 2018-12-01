@@ -546,7 +546,7 @@ document.getElementById("app").innerHTML = `
 
       <div class="pure-button-group pure-form pure-form-stacked"> <button type="button" class="pure-button pure-input-1-2 pure-button-primary" onclick="generateFile(); return false"><i class="fas fa-cogs"></i>  Generate</button><button type="button" style="background: rgb(202, 60, 60);" class="pure-button pure-input-1-2 pure-button-primary" id="downloadButton" onclick="saveFileToComputer(); return false" disabled=""><i class="fas fa-download"></i> Download</button> </div>
        
-
+<div><a href="https://github.com/takashi1kun/hex-poke-xp-edit">Github Page</a><br /><a href="https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/">GBAtemp Post</a>/div>
 </div>
 `;
 document.getElementById("downloadButton").disabled = true;
