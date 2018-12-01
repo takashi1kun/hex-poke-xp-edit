@@ -1,3 +1,5 @@
+if (navigator.userAgent.match(/android/i)) document.getElementById("smartphone").style.display = "none !important";
+if (navigator.userAgent.match(/(iPhone|iPod)/i)) document.getElementById("smartphone").style.display = "none !important";
 document.getElementById("downloadButton").disabled = true;
 //Variables
 
