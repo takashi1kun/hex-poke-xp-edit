@@ -2,6 +2,8 @@ if (navigator.userAgent.match(/android/i)) document.getElementById("smartphone")
 if (navigator.userAgent.match(/(iPhone|iPod)/i)) document.getElementById("smartphone").style.display = "none";
 if (navigator.userAgent.match(/android/i)) document.getElementById("smartphone2").style.display = "none";
 if (navigator.userAgent.match(/(iPhone|iPod)/i)) document.getElementById("smartphone2").style.display = "none";
+if (navigator.userAgent.match(/android/i)) document.getElementById("smartphone3").style.height = "100%";
+if (navigator.userAgent.match(/(iPhone|iPod)/i)) document.getElementById("smartphone3").style.height = "100%";
 document.getElementById("downloadButton").disabled = true;
 //Variables
 
