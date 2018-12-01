@@ -28,7 +28,186 @@
         resize: vertical;
       }
     </style>
+<style type="text/css" id="scss:src-main">body {
+  font-family: lato,sans-serif;
+  color: #fff; }
 
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.form {
+  width: 400px; }
+
+.file-upload-wrapper {
+  position: relative;
+  width: 100%;
+  height: 60px; }
+
+.file-upload-wrapper:after {
+  content: attr(data-text);
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 10px 15px;
+  display: block;
+  width: calc(100% - 40px);
+  pointer-events: none;
+  z-index: 20;
+  height: 40px;
+  line-height: 40px;
+  color: #999;
+  border-radius: 5px 10px 10px 5px;
+  font-weight: 300; }
+
+.file-upload-wrapper:before {
+  content: "Upload";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  height: 60px;
+  background: #4daf7c;
+  color: #fff;
+  font-weight: 700;
+  z-index: 25;
+  font-size: 16px;
+  line-height: 60px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  pointer-events: none;
+  border-radius: 0 5px 5px 0; }
+
+.file-upload-wrapper:hover:before {
+  background: #3d8c63; }
+
+.file-upload-wrapper input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  width: 100%; }
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: .75em;
+  color: #8e44ad;
+  top: -2.25rem;
+  -webkit-transition: all .125s ease;
+  transition: all .125s ease; }
+
+.styled-input {
+  float: left;
+  width: 33.3333%;
+  margin: 2rem 0 1rem;
+  position: relative; }
+
+.styled-input label {
+  color: #999;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  pointer-events: none; }
+
+.styled-input.wide {
+  width: 100%; }
+
+input, textarea {
+  padding: 1rem;
+  border: 0;
+  width: 100%;
+  font-size: 1rem; }
+
+input ~ span, textarea ~ span {
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #8e44ad;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all .125s ease;
+  transition: all .125s ease; }
+
+input:focus, textarea:focus {
+  outline: 0; }
+
+input:focus ~ span, textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all .075s ease;
+  transition: all .075s ease; }
+
+textarea {
+  width: 100%;
+  min-height: 15em; }
+
+.text-input {
+  position: relative;
+  margin-top: 50px; }
+
+.text-input select {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  padding: 10px 10px 10px 180px;
+  transition: all .1s ease-out; }
+
+.text-input select + label {
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 3px 0 0 3px;
+  padding: 0 20px;
+  background: #4daf7c;
+  transform: translateZ(0%) translateX(0);
+  transition: all .3s ease-in;
+  transition-delay: .2s; }
+
+.text-input label {
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 3px 0 0 3px;
+  padding: 0 20px;
+  background: #4daf7c;
+  transform: translateZ(0%) translateX(0);
+  transition: all .3s ease-in;
+  transition-delay: .2s; }
+
+.text-input select:focus {
+  padding: 10px 10px 10px 180px;
+  transition: all .3s ease-out;
+  transition-delay: .2s; }
+</style>
   </head>
 
   <body
