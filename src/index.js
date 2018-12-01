@@ -552,12 +552,22 @@ document.getElementById("app").innerHTML = `
     width: 30%;
 "><p></p></div>
     <div class="pure-u-1-3" style="
+    /* background: #fff; */
+    display: block;
+    border-radius: 5px 10px 10px 5px;
     width: 39.99999999%;
+"><div style="
+    background: #4daf7c;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+    top: 0;
+    height: 3.4%;
 "><p style="text-align: center;">
 <a style="color:white;font-weight: 1000;font-size: 130%;/* text-decoration: underline; */">Links</a><br>
-</p><div class="pure-button-group pure-form pure-form-stacked"> <button type="button" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='https://github.com/takashi1kun/hex-poke-xp-edit/'; return false" style="
+</p></div><div class="pure-button-group pure-form pure-form-stacked"> <button type="button" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='https://github.com/takashi1kun/hex-poke-xp-edit/'; return false" style="
     background-color: #24292e;
-"><i class="fab fa-github"></i>GitHub</button><button type="button" style="background: rgb(99, 135, 171);" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/'; return false"><i class="far fa-comment-alt"></i>GBAtemp</button> </div><p></p></div>
+    border-radius: 0px 0px 0px 5px;
+"><i class="fab fa-github"></i>GitHub</button><button type="button" style="background: rgb(99, 135, 171);border-radius: 0px 0px 5px 0px;" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/'; return false"><i class="far fa-comment-alt"></i>GBAtemp</button> </div><p></p></div>
     <div class="pure-u-1-3" style="
     width: 30%;
 "><p></p></div>
