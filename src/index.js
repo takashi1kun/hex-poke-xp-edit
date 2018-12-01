@@ -1,12 +1,19 @@
 document.getElementById("app").innerHTML = `
- <div
-          style="background-color: #4daf7c; border-radius: 25px 25px 0px 0px; margin: -26px 0px 0px -25px; display: inline-block; position:
-		absolute; width: 33.3333333333333%; text-align: center; min-width: 488.18;"
-        >
+ <div style="
+		background-color: #4daf7c;
+		border-radius: 25px 25px 0px 0px;
+		margin: 10% 0px 1% 0px;
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		border-radius: 25px;
+		padding: 5px 0px 5px 0px;
+		">
           <h1>Pokemon let's go xp mod percentage changer</h1>
         </div>
-<div >
-   <form style="margin: 135px 0px 0px 0px;" class="pure-form pure-form-stacked" id="frm1" >
+<div style="min-width: 33.333333%;background-color: 2c4985;border: 25px solid #2c4985;margin: -5em 0em 9em;padding: 0 0 3em;border-radius: 25px;box-shadow: 0px 0px 1px #000;">
+   <form style="margin: 135px 0px 0px 0px;" class="pure-form pure-form-stacked" id="frm1">
      <div class="text-input">   <div style="color: #999;"><select id="percfile1" name="perc1">
     <option value="0">Select Percentage:</option>
 <option value="1">0%</option>
@@ -526,20 +533,18 @@ document.getElementById("app").innerHTML = `
 <option value="256">255%</option>
   </select><label for="percfile2"> New Percentage  : </label></div></div>
 
-        <br />
+        <br>
          <div class="text-input" style="margin-top: 0;"><label style="position:relative; border-radius: 3px; top: 10;">  File 1 :</label></div>
       <span></span>
-<textarea style="color: black;" class="pure-input-1" rows="8" cols="50" name="file1" id="file1"></textarea><br /> <div class="file-upload-wrapper" data-text="Upload File 1!">
-      <input class="file-upload-field" type="file" name="fileinput" onchange="openFile1(event)" /><span></span></div><br />
+<textarea style="color: black;" class="pure-input-1" rows="8" cols="50" name="file1" id="file1"></textarea><br> <div class="file-upload-wrapper" data-text="Upload File 1!">
+      <input class="file-upload-field" type="file" name="fileinput" onchange="openFile1(event)"><span></span></div><br>
       <div class="text-input" style="margin-top: 0;"><label style="position:relative; border-radius: 3px; top: 10;">  File 2 :</label></div>
-      <textarea style="color: black;" class="pure-input-1" rows="8" cols="50" name="file2" id="file2"></textarea
-      ><br /><div class="file-upload-wrapper" data-text="Upload File 2!"><input class="file-upload-field" type="file" name="fileinput" onchange="openFile2(event)"
-      /><br /></div><div style="margin-top: 30px;">
+      <textarea style="color: black;" class="pure-input-1" rows="8" cols="50" name="file2" id="file2"></textarea><br><div class="file-upload-wrapper" data-text="Upload File 2!"><input class="file-upload-field" type="file" name="fileinput" onchange="openFile2(event)"><br></div><div style="margin-top: 30px;">
   
       
        <div class="text-input" style="margin-top: 30;"><label style="position:relative; border-radius: 3px; top: 10;"> Result:</label></div>
-     <textarea style="color: black;" readonly id="demo" rows="8" cols="50" class="pure-input-1"></textarea>
-      </form>
+     <textarea style="color: black;" readonly="" id="demo" rows="8" cols="50" class="pure-input-1"></textarea>
+      
       
 
       <p id="demo2"></p>
@@ -573,6 +578,7 @@ document.getElementById("app").innerHTML = `
 "><p></p></div>
 </div>
 </div>
+</div></form>
 </div>
 `;
 document.getElementById("downloadButton").disabled = true;
