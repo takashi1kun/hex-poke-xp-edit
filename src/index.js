@@ -549,13 +549,13 @@ document.getElementById("app").innerHTML = `
 <div>
 <div class="pure-g">
     <div class="pure-u-1-3" style="
-    width: 30%;
+    width: 25%;
 "><p></p></div>
     <div class="pure-u-1-3" style="
     /* background: #fff; */
     display: block;
     border-radius: 5px 10px 10px 5px;
-    width: 39.99999999%;
+    width: 50%;
 "><div style="
     background: #4daf7c;
     position: relative;
@@ -569,7 +569,7 @@ document.getElementById("app").innerHTML = `
     border-radius: 0px 0px 0px 5px;
 "><i class="fab fa-github"></i>GitHub</button><button type="button" style="background: rgb(99, 135, 171);border-radius: 0px 0px 5px 0px;" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='https://gbatemp.net/threads/pokemon-lets-go-altered-experience-gain-mod-customizer.524909/'; return false"><i class="far fa-comment-alt"></i>GBAtemp</button> </div><p></p></div>
     <div class="pure-u-1-3" style="
-    width: 30%;
+    width: 25%;
 "><p></p></div>
 </div>
 </div>
